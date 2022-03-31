@@ -62,7 +62,7 @@ function dealFunction(){
     }
     let result = document.querySelector('#result')
         result.innerHTML = "Let's Play"
-        result.style.color = "black"
+        result.style.color = "white"
 }
 
 function submitFunction(){
@@ -84,7 +84,7 @@ function submitFunction(){
             b = blackjackGame[blackjackImages[imagevalue]]
             actualDealerScore = dealerscore + b
         }
-        console.log(b)
+        // console.log(b)
         if(actualDealerScore > 21){
             let score = document.querySelector('#dealer-score')
             score.innerHTML = "You Bust!"
@@ -142,7 +142,7 @@ function computewinner(yourscore, dealerscore){
     }else if((yourscore === dealerscore && (your_score.innerHTML !== "You Bust!" && dealer_score.innerHTML !== "You Bust!")) ||(your_score.innerHTML === 'You Bust!' && dealer_score.innerHTML === 'You Bust!')){
         let result = document.querySelector('#result')
         result.innerHTML = "It's a Draw"
-        result.style.color = "black"
+        result.style.color = "white"
         results['Draws'] += 1
     }else if(yourscore < dealerscore || your_score.innerHTML === 'You Bust!'){
         let result = document.querySelector('#result')

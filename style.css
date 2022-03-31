@@ -1,23 +1,31 @@
+body
+{
+    background-image: url("images/Casino-Game-Wallpapers-Top-Free-Casino-Game-Backgrounds-.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 .blackjack-container {
-    border: 1px solid black;
+    border: 1px solid white;
     width: 75%;
     margin: 0 auto;
     text-align: center;
+    color:white;
 }
 .blackjack-row-1,.blackjack-row-2 {
-    border: 1px solid black;
+    border: 1px solid white;
     color: white;
     display: flex;
     flex-wrap: wrap;
     flex-direction:row;
     justify-content: space-around;
-    background: url("images/bg.jpg") center;
     
     padding: 10px;
 }
 .blackjack-row-2{
     padding: 14px;
-    background-image: url("images/bg.jpg");
     background-position: center;
 }
 .blackjack-row-3 {
@@ -26,11 +34,12 @@
     padding: 7px;
 }
 tr,td, th{
-    border: 1px solid black;
+    border: 1px solid white;
     padding: 5px;
+    color:white;
 }
 .blackjack-row-1 div{
-    border: 1px solid black;
+    border: 1px solid white;
     flex:1;
     height: 500px;
     width: 533px;
